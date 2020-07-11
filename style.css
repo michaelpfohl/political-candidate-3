@@ -1,0 +1,108 @@
+body {
+    background: #0b233f;
+    color: #c99700;
+}
+
+article {
+    display: flex;
+    height: 30%;
+}
+
+.banner--alexandria, .banner--ocasio, .banner--cortez {
+    width: 75%;
+    font-family: Futura;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.content--basic, .content--committees, .content--legislation {
+    width: 25%;
+    font-family: Futura;
+}
+
+.text--alexandria {
+    font-size: 12rem;
+    text-align: start;
+    margin: 0px 0px 0px 20px;
+}
+
+.text--ocasio {
+    font-size: 17.25rem;
+    text-align: end;
+    margin: 0px 30px 0px 0px;
+}
+
+.text--cortez {
+    font-size: 18rem;
+    text-align: start; 
+    margin: 0px 0px 0px 20px;
+}
+
+.content--basic, .content--committees, .content--legislation {
+    color: white;
+}
+
+.content--basic-party {
+    font-size: 3rem;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 60px 0px 0px 30px;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: white;
+    margin: 0;
+}
+
+.hr--little {
+    width:63%;
+    height: 2px;
+    border: none;
+    background: #c99700;
+    margin: 0px 0px 0px 95px;
+}
+
+.hr--committees, .hr--legislation {
+    width: 92%;
+    margin: 0px 0px 0px 18px;
+    background: #c99700;
+}
+
+.content--basic-rep {
+    font-size: 2rem;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+}
+
+.content--basic-ny {
+    font-size: 1.5rem;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+}
+
+.list--header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+}
+
+.content--committees {
+    margin-left: 20px;
+}
+
+.content--legislation {
+    margin-right: 40px;
+}
+
+.list--legislation {
+    font-size: 1.2rem;
+}
+
+.list--committees {
+    font-size: 1.08rem;
+}
